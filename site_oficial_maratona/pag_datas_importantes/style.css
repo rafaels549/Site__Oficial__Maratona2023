@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}    
+
+
+/*navbar bootstrap*/
+
+.menu{
+  background-color: #15457A;
+}
+.menu .navbar-toggler{
+  padding: 10px;
+  border-color: white;
+}
+
+.menu2{
+  background-color: white;
+}
+
+.nav-item{
+  padding: 6px;
+}
+
+.menu2 .nav-link{
+  color:  #120A8f;
+}
+
+/* fim nav bootstrap*/
+
+
+
