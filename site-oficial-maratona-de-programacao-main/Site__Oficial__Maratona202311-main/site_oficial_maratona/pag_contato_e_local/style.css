@@ -32,7 +32,7 @@ body{
 
 /* fim nav bootstrap*/
  footer{
-   position: fixed;
+   position: end;
    bottom: 0;
    width: 100%;
  }

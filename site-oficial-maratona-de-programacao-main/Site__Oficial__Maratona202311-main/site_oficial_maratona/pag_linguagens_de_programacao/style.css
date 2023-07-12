@@ -64,6 +64,11 @@ header {
   border: 2px solid rgb(255, 254, 254);
   width: 24px;
 }
+footer {
+  position: end;
+  bottom: 0;
+  width: 100%;
+} 
 
 @media (max-width:1280px){
   .link{

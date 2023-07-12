@@ -60,7 +60,7 @@
     
 }
 footer{
-  position: fixed;
+  position: end;
   bottom: 0;
   width: 100%;
 }
@@ -182,3 +182,6 @@ footer{
         margin-bottom: 10vh;
     }
   }
+
+  /*calendario bootstrap*/
+  
