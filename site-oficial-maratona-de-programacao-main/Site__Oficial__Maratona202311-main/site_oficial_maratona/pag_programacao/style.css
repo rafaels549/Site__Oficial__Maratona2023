@@ -60,7 +60,7 @@
     
 }
 footer{
-  position: end;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -68,15 +68,15 @@ footer{
   margin-top: 300px;
 }
 .text-center{
-  color: black;
+  color: #15457A;
   
 }
 .hr-line{
-   border: 2px solid black;
+   border: 2px solid #15457A;
    
 }
 .caixa1{
-  border: 2px solid black;
+  border: 2px solid #15457A;
 }
 .datas{
     display: flex;
@@ -136,10 +136,10 @@ footer{
 }
 
 #blue{
-    background-color: black;   
+    background-color: #15457A;   
 }
 #encerramento{
-    background-color: black;
+    background-color: #15457A;
     position: relative;
     top: -70px;
 }
@@ -150,14 +150,14 @@ footer{
 .png{
     position: relative;
     top: -80px;
-    background-color: black;
+    background-color: #15457A;
     border-radius: 150px;
     padding: 10px;
     color: white;
     
     
 }
-  @media (max-width:900px){
+  @media (max-width:1280px){
     .box {
       margin-top: 10vh;
         margin-bottom: 10vh;

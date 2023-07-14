@@ -11,7 +11,13 @@ body{
 
 
 /*navbar bootstrap*/
- 
+.linha{
+     
+  margin: 5px;
+  border: 2px solid rgb(255, 254, 254);
+  width: 24px;
+}
+
 .menu{
   background-color: #15457A;
 }

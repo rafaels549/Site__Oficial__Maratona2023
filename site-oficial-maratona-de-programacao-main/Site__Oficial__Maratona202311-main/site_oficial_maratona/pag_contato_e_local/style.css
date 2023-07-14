@@ -5,6 +5,10 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ 
 }    
 
 
@@ -29,18 +33,22 @@ body{
 .menu2 .nav-link{
   color:  #120A8f;
 }
+.linha{
+     
+  margin: 5px;
+  border: 2px solid rgb(255, 254, 254);
+  width: 24px;
+}
+
 
 /* fim nav bootstrap*/
- footer{
-   position: end;
-   bottom: 0;
-   width: 100%;
- }
+ 
 .col-md-5 .text-center{
   margin-top: 30px;
 }
 main{
   margin-top: 250px;
+  flex: 1 1 0;
 }
 .container{
   margin-top: 100px;
@@ -85,10 +93,9 @@ iframe{
 }
 
 
-@media (max-width:768px){
-    footer{
-       position: initial;
-    }
+@media (max-width:1280px){
+  
+    
     iframe{
       margin-top:50px ;
     }
