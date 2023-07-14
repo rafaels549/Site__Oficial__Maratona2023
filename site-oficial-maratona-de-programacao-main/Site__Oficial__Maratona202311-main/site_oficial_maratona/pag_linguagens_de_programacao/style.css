@@ -24,6 +24,10 @@ header {
   border: 2px solid rgb(255, 254, 254);
   width: 24px;
 }
+.imgf{
+  display: flex;
+  justify-content: space-between;
+}
 .menu{
   background-color: #15457A;
 }

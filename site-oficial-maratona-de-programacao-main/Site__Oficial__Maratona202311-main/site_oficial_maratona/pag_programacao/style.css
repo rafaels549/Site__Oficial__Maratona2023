@@ -49,7 +49,10 @@
     border: 2px solid rgb(255, 254, 254);
     width: 24px;
 }
-
+.imgf{
+  display: flex;
+  justify-content: space-between;
+}
   
   .data{
     display: flex;

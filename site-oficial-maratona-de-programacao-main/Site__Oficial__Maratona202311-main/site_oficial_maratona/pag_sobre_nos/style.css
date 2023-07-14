@@ -25,7 +25,10 @@ body{
   padding: 10px;
   border-color: white;
 }
-
+.imgf{
+  display: flex;
+  justify-content: space-between;
+}
 .menu2{
   background-color: white;
 }

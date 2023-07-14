@@ -59,6 +59,10 @@ footer{
   width: 100%;
   bottom: 0;
 }
+.imgf{
+  display: flex;
+  justify-content: space-between;
+}
 .linha{
  
   margin: 5px;
