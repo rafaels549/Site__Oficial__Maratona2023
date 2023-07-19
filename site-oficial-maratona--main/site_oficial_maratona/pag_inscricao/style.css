@@ -5,13 +5,18 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }    
 
 
 
 
 /*navbar bootstrap*/
-
+main{
+    flex: 1 1 0;
+}
 .menu{
   background-color: #15457A;
 }
@@ -55,7 +60,7 @@ footer {
   margin: 0 auto;
 }
 footer{
-  position: fixed;
+  position: end;
   width: 100%;
   bottom: 0;
 }
@@ -129,6 +134,6 @@ footer{
 }
 @media (max-width:768px){
  footer{
-    position: initial;
+    position: end;
  }
 }
