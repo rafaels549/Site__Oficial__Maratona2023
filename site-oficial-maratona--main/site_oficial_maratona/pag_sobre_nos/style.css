@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+   
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}    
+
+
+
+/*navbar bootstrap*/
+.linha{
+     
+  margin: 5px;
+  border: 2px solid rgb(255, 254, 254);
+  width: 24px;
+}
+
+.menu{
+  background-color: #15457A;
+}
+.menu .navbar-toggler{
+  padding: 10px;
+  border-color: white;
+}
+.imgf{
+  display: flex;
+  justify-content: space-between;
+}
+.menu2{
+  background-color: white;
+}
+
+.nav-item{
+  padding: 6px;
+}
+
+.menu2 .nav-link{
+  color:  #120A8f;
+}
+
+/* fim nav bootstrap*/
+footer {
+  position: end;
+  bottom: 0;
+  width: 100%;
+}
+
+main h1{
+  color: #15457A;
+}
+main{
+  margin-top: 150px;
+ 
+}
+.container{
+  margin-top: 50px;
+}
+
+.carousel-item img{
+  object-fit: cover;
+   
+}
+
+.col-md-7 img{
+  width: 100%;
+  border: 3px solid #15457A;
+  height: 500px;
+  object-fit: cover;
+  
+  
+}
+#foto{
+  height: 300px;
+}
+.col-md-5 img{
+  width: 100%;
+  
+}
+#missao{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.lista li{
+  margin-bottom: 1em;
+}
+.col-md-5{
+ 
+  background-color: #15457A;
+  color: white;
+  
+}
+@media (max-width:768px){
+   .container .row .info{
+    margin-top: 30px;
+   }
+}
