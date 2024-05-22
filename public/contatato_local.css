@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+  }    
+  
+  
+  /*navbar bootstrap*/
+  
+  .menu{
+    background-color: #15457A;
+  }
+  .menu .navbar-toggler{
+    padding: 10px;
+    border-color: white;
+  }
+  
+  .menu2{
+    background-color: white;
+  }
+  
+  .imgf{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-item{
+    padding: 6px;
+  }
+  
+  .menu2 .nav-link{
+    color:  #120A8f;
+  }
+  .linha{
+       
+    margin: 5px;
+    border: 2px solid rgb(255, 254, 254);
+    width: 24px;
+  }
+  
+  
+  /* fim nav bootstrap*/
+   
+  .col-md-5 .text-center{
+    margin-top: 30px;
+  }
+  main{
+    margin-top: 250px;
+    flex: 1 1 0;
+  }
+  .container{
+    margin-top: 100px;
+    border: 1px solid whitesmoke;
+  }
+  .endereço{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+  }
+  .endereço svg{
+    margin-top: 8px;
+    color: #15457A;
+  }
+  .endereço h4{
+    margin-left: 5px;
+    
+  }
+  .contato h4{
+    margin-left: 5px;
+   
+  }
+  .contato svg{
+    margin-top: 8px;
+    color: #15457A;
+  }
+  .contato{
+    display: flex;
+    
+  }
+  iframe{
+    width: 100%;
+  }
+  .email{
+    display: flex;
+    margin-top: 30px;
+  }
+  .email svg{
+    margin-top: 8px;
+    color: #15457A;
+  }
+  
+  
+  @media (max-width:1280px){
+    
+      
+      iframe{
+        margin-top:50px ;
+      }
+  }
