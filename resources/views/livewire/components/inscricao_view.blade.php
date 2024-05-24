@@ -2,6 +2,7 @@
 
 use Livewire\Volt\Component;
 use App\Models\Page;
+use Livewire\Attributes\On;
 new class extends Component {
      public Page $page;
      public $editing = false;
@@ -20,8 +21,10 @@ new class extends Component {
 <div>
     @if(!$editing)
     <main>
+   
         <div class="container">
           <div class="row">
+         
             <div class="baloon text-center">
               <h1>{{  $page->titulos[0] }}</h1>
     
@@ -56,7 +59,13 @@ new class extends Component {
           </div>
         </div>
       </main>
+      @auth
+        <button wire:click="editMode" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
+            Editar
+            <span wire:loading wire:target="editMode" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
+          </button>
+        @endauth
       @else
-      <livewire:components.inscricao_edit :page="$page" :imagensCarousel="$this->imagensCarousel" :imagens="$this->imagens"  />
+      <livewire:components.inscricao_edit :page="$page"   />
       @endif
 </div>

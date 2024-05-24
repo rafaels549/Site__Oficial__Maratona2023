@@ -12,11 +12,9 @@ new class extends Component {
 }; ?>
 
 <div>
-    @auth
-    <livewire:components.edit_programacao :page="$page" />
-    @else
+  
     <livewire:components.view_programacao :page="$page" />
-     @endif
+    
 
      @assets
        <link rel="stylesheet" href="/programacao.css">

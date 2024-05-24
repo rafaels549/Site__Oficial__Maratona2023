@@ -2,19 +2,19 @@
 
 use Livewire\Volt\Component;
 use App\Models\Page;
+use Livewire\Attributes\On;
 new class extends Component {
     public Page $page;
-    public  $editing = false;
-    #[On('editTrue')]
-    public function handleEditMode() {
-        $this->authorize('update', auth()->user());
-        $this->editing = true;
+    public function save(){
+        $this->dispatch("editFalse");
     }
+
+    
 }; ?>
 
 <div>
 
-    @if($editing)
+    
     <main>
         <div class="section ">
           <div class="container ">
@@ -96,9 +96,12 @@ new class extends Component {
                 </div>
               </div>
             </div>
+
+      <button wire:click="save" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
+                Salvar
+                <span wire:loading wire:target="save" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
+              </button>
         </div>
           </main>
-          @else
-              <livewire:components.view_programacao :page="$page" />
-          @endif
+        
 </div>

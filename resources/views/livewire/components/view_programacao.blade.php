@@ -2,24 +2,29 @@
 
 use Livewire\Volt\Component;
 use App\Models\Page;
+use Livewire\Attributes\On;
 new class extends Component {
     //
      public Page $page;
+     public $editing =false;
      public function editMode(){
         $this->authorize('update', auth()->user());
-        $this->dispatch('editTrue');
-     }
+        $this->editing=true;
+     } 
+
+     #[On('editFalse')]
+    public function handleEditMode() {
+        $this->authorize('update', auth()->user());
+        $this->editing = false;
+    }
 
 }; ?>
 
 <div>
+
+@if(!$editing)
     <main>
-        @auth
-        <button wire:click="editMode" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
-            Editar
-            <span wire:loading wire:target="editMode" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
-          </button>
-        @endauth
+        
         <div class="section ">
           <div class="container ">
             <div class="row ">
@@ -30,6 +35,12 @@ new class extends Component {
                   <div class="hr-line"> </div>
                 </div>
               </div>
+              @auth
+        <button wire:click="editMode" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
+            Editar
+            <span wire:loading wire:target="editMode" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
+          </button>
+        @endauth
             </div>
           </div>
           
@@ -55,4 +66,8 @@ new class extends Component {
             </div>
         </div>
           </main>
+          @else
+          <livewire:components.edit_programacao :page="$page"   />
+          @endif
+
 </div>

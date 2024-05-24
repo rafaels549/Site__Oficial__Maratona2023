@@ -34,5 +34,11 @@ new class extends Component {
             <p><input wire:model="contents.4" type="text"></p>
 
             <p> <input wire:model="contents.5" type="text"></p>
+            <button wire:click="save" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
+                Salvar
+                <span wire:loading wire:target="save" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
+              </button>
       </main>
+
+     
 </div>
