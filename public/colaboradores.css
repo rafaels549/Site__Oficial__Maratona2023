@@ -1,0 +1,121 @@
+
+
+
+  
+ 
+
+  
+  /*navbar bootstrap*/
+  .principal{
+    margin-top: 200px;
+    border: 2px solid #15457A;
+    padding: 10px;
+  }
+  .linha{
+      
+   margin: 5px;
+   border: 2px solid rgb(255, 254, 254);
+   width: 24px;
+  }
+  .imgf{
+   display: flex;
+   justify-content: space-between;
+  }
+  .menu{
+   background-color: #15457A;
+  }
+  .menu .navbar-toggler{
+   padding: 10px;
+   border-color: white;
+  }
+  
+  .menu2{
+   background-color: white;
+  }
+  
+  .nav-item{
+   padding: 6px;
+  }
+  
+  .menu2 .nav-link{
+   color:  #120A8f;
+  }
+  
+  .principal-title {
+    text-align: center;
+    color: #15457A;
+     font-size: 4rem;
+     
+
+  }
+  
+ .btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+  }
+ main{
+    display: flex;
+     flex-direction: column;
+     margin-top: 150px;
+ }
+
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: -50px;
+}
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .btn:hover, a:hover {
+    opacity: 0.7;
+  }
+ 
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Alinha os elementos verticalmente */
+    align-items: center; /* Alinha os elementos horizontalmente */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    height: 400px;
+    object-fit: cover; /* Permite que a altura da imagem seja ajustada automaticamente */
+  }
+ 
+  
+  .card p,
+  .card button ,
+  .card h1{
+    margin-top: 10px; /* Adiciona margem superior entre os elementos */
+  }
+ 
+  @media (max-width: 768px) {
+    .card-container {
+     align-items: center;
+        grid-template-columns: 1fr; /* Altera para uma coluna por linha */
+    }
+}
+  
+  

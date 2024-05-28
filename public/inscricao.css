@@ -64,6 +64,38 @@
     width: 100%;
     bottom: 0;
   }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Alinha os elementos verticalmente */
+    align-items: center; /* Alinha os elementos horizontalmente */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    padding: 20px;
+    border-color: #15457A;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.card img {
+    max-width: auto; /* Garanta que a imagem não ultrapasse a largura do card */
+    height: 250px;
+    object-fit: cover;/* Permita que a altura da imagem seja ajustada automaticamente */
+}
+
+.card h1 {
+  font-size: 1.2em; /* Tamanho de fonte relativo */
+  margin-top: 10px; /* Espaçamento superior */
+  margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+.card p {
+  font-size: 1em; /* Tamanho de fonte relativo */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+  
   .imgf{
     display: flex;
     justify-content: space-between;

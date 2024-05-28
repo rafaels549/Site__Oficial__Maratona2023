@@ -12,7 +12,7 @@ new class extends Component {
     public function salvar(){
 
       $this->authorize('update',auth()->user());
-        $this->page = Page::where("id",$page->id)->first();
+      
         foreach($this->titulos as $index=>$titulo){
        
              $this->page->titulos[$index] = $titulo;
@@ -20,7 +20,7 @@ new class extends Component {
         foreach($this->contents as $index=>$content){
             $this->page->contents[$index] = $content;
    }
-
+                 $this->page->save();
        $this->dispatch("cancelEditMode");
     }
 

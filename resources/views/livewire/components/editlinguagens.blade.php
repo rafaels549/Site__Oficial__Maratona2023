@@ -14,6 +14,8 @@ new class extends Component {
           foreach($contents as $index=>$content){
                    $this->page->contents[$index] = $content;
           }
+          $this->page->save();
+          $this->dispatch('cancelEditMode');
     }
 
 }; ?>

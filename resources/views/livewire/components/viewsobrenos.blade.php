@@ -56,7 +56,7 @@ new class extends Component {
               <div class="carousel-inner w-100 ">
                 @foreach($this->imagensCarousel as $index => $imagem)
                 <div class="carousel-item w-100 {{ $loop->first ? 'active' : '' }}">
-                    <img src="{{ asset('storage/'. $imagem->imagem) }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('storage/'.$imagem->imagem) }}" class="d-block w-100" alt="...">
                 </div>
             @endforeach
               </div>

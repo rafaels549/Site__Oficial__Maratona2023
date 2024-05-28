@@ -34,11 +34,11 @@ new class extends Component {
     <main>
 
     @auth
-              <button wire:click="editMode" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
-                  Editar
-                  <span wire:loading wire:target="editMode" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
-                </button>
-              @endauth
+        <button wire:click="editMode" type="button" class="btn btn-primary m-2" wire:loading.class="disabled">
+            Editar
+            <span wire:loading wire:target="editMode" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true"></span>
+          </button>
+        @endauth
         <h1 class="text-center">{{$page->titulos[0]}}</h1>
         <div class="container">
           <div class="row">
@@ -83,9 +83,7 @@ new class extends Component {
       </main>
    @else
       
-   <livewire:components.edit_contato_local :page="$page"   />
+   <livewire:components.edit_contato_e_local :page="$page"   />
     @endif
-      @assets 
-      <link rel="stylesheet" href="/linguagens.css">
-   @endassets
+   
 </div>

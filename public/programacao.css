@@ -1,192 +1,194 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }    
-  
-  
-    /*navbar bootstrap*/
- main{
-    flex: 1 1 0;
- }
-  .menu{
-    background-color: #15457A;
-  }
-  .menu .navbar-toggler{
-    padding: 10px;
-    border-color: white;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .menu2{
-    background-color: white;
-  }
+body{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}    
 
-  .nav-item{
-    padding: 6px;
-  }
 
-  .menu2 .nav-link{
-    color:  #120A8f;
-  }
+  /*navbar bootstrap*/
+main{
+  flex: 1 1 0;
+}
+.menu{
+  background-color: #15457A;
+}
+.menu .navbar-toggler{
+  padding: 10px;
+  border-color: white;
+}
 
-  /* fim nav bootstrap*/
+.menu2{
+  background-color: white;
+}
+
+.nav-item{
+  padding: 6px;
+}
+
+.menu2 .nav-link{
+  color:  #120A8f;
+}
+
+/* fim nav bootstrap*/
 
 
 .no-scroll{
-  overflow: hidden;
+overflow: hidden;
 }
 
-  .caixa {
-    position: relative;
-    
-    margin: 0 auto;
-  }
+.caixa {
+  position: relative;
   
-  .linha{
-     
-    margin: 5px;
-    border: 2px solid rgb(255, 254, 254);
-    width: 24px;
+  margin: 0 auto;
+}
+
+.linha{
+   
+  margin: 5px;
+  border: 2px solid rgb(255, 254, 254);
+  width: 24px;
 }
 .imgf{
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
+
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   
-  .data{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    
 }
 footer{
-  position: end;
-  bottom: 0;
-  width: 100%;
+position: end;
+bottom: 0;
+width: 100%;
 }
 .section{
-  margin-top: 300px;
+margin-top: 300px;
 }
 .text-center{
-  color: #15457A;
-  
+color: #15457A;
+
 }
 .hr-line{
-   border: 2px solid #15457A;
-   
+ border: 2px solid #15457A;
+ 
 }
 .caixa1{
-  border: 2px solid #15457A;
+border: 2px solid #15457A;
 }
 .datas{
-    display: flex;
-    justify-content: center;
-     margin-top: 100px;
-    background-color:whitesmoke ;
-    padding: 50px;
-    width: 100%;
-    
+  display: flex;
+  justify-content: center;
+   margin-top: 100px;
+  background-color:whitesmoke ;
+  padding: 50px;
+  width: 100%;
+  
 }
 .box{
-    border: 1px solid whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width:100%;
-    height: 200px;
-    
+  border: 1px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width:100%;
+  height: 200px;
+  
 }
 .box svg{
-  position: relative;
-  top: -110px;
-  height: 70px;
+position: relative;
+top: -110px;
+height: 70px;
 }
 
 .box h1{
-    
-    background-color: #cd1c17;
-    width: 100%;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -70px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    
+  
+  background-color: #cd1c17;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: -70px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  
 }
 .box p{
-    text-align: center;
-    width: 100%;
-    height: 10px;
-    font-size: 18px;
-    margin-top: 20px;
-    color: black;
-    position: relative;
-    top: -60px;
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  color: black;
+  position: relative;
+  top: -60px;
 }
 
 .row{
-  justify-content: center;
+justify-content: center;
 }
 
 .row .col-md-2{
-  padding: 0px;
-  
+padding: 0px;
+
 }
 
 #blue{
-    background-color: #15457A;   
+  background-color: #15457A;   
 }
 #encerramento{
-    background-color: #15457A;
-    position: relative;
-    top: -70px;
+  background-color: #15457A;
+  position: relative;
+  top: -70px;
 }
 #paragrafo{
-    top: -70px;
+  top: -70px;
 }
 
 .png{
-    position: relative;
-    top: -80px;
-    background-color: #15457A;
-    border-radius: 150px;
-    padding: 10px;
-    color: white;
-    
-    
+  position: relative;
+  top: -80px;
+  background-color: #15457A;
+  border-radius: 150px;
+  padding: 10px;
+  color: white;
+  
+  
 }
-  @media (max-width:1280px){
-    .box {
-      margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
-    .col-md-6{
-      display: flex;
-      justify-content: center;
-    }
-    .caixa1{
-       width: 79%;
-    }
-    footer{
-       position:initial;
-    }
-    
+@media (max-width:1280px){
+  .box {
+    margin-top: 10vh;
+      margin-bottom: 10vh;
   }
+  .col-md-6{
+    display: flex;
+    justify-content: center;
+  }
+  .caixa1{
+     width: 79%;
+  }
+  footer{
+     position:initial;
+  }
+  
+}
 
-  @media (max-width:320px){
-    
-    .box {
-      margin-top: 20vh;
-        margin-bottom: 10vh;
-    }
+@media (max-width:320px){
+  
+  .box {
+    margin-top: 20vh;
+      margin-bottom: 10vh;
   }
+}
+
+/*calendario bootstrap*/

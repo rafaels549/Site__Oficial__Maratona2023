@@ -18,5 +18,7 @@ new class extends Component {
     <livewire:components.view_contato_e_local  :page="$page" />
    
    
-   
+    @assets 
+      <link rel="stylesheet" href="/contato.css">
+   @endassets
 </div>
