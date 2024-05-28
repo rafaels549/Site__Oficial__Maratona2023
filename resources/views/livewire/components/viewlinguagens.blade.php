@@ -42,7 +42,7 @@ new class extends Component {
                     <img src="{{ asset('storage/imagens/java.png') }}" alt="Java" style="width: 100px;">
                     <img src="{{ asset('storage/imagens/c.png') }}" alt="C" style="width: 100px;">
                     <img src="{{ asset('storage/imagens/kotlin.png') }}" alt="Kotlin" style="width: 100px;">
-                    <img src="{{ asset('storage/imagens/python.png') }}" alt="Python" style="width: 100px;">
+                    <img style="object-fit:cover:;" src="{{ asset('storage/imagens/python.png') }}" alt="Python" style="width: 100px;">
                 </div>
             </h1><br><br><br><br>
             <p>{{$page->contents[0]}}</p>

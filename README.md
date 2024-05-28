@@ -64,3 +64,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# site-oficial-maratona-
+
+
+
+# sudo composer install
+
+# sudo cp .env.example .env
+
+# sudo php artisan key generate
+
+
+# conectar no banco de dados no .env
+
+
+# sudo php artisan migrate --seed
+
+
+# sudo npm install
+
+# sudo php artisan storage:link
+
+# sudo npm run build
+
+# troque o css e js gerado pelo build , por todos os .css e .js no resources/views/components/layouts/app.blade.php
+
+# verifuqe o AppServiceProvider e o .env

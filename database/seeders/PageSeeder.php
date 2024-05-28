@@ -154,7 +154,7 @@ class PageSeeder extends Seeder
         $page4 = Page::create([
 
              'titulos' => ['Como Participar?', 'Forme seu time!', 'Inscrições', 'Quem é o coach?'],
-             'contents' => ['Cada time precisa de 1 coach', '3 integrantes e poderá ter 1 reserva', 'O representante do time (coach) deverá realizar as inscrições até o dia 15/08/2023', 'Ele poderá ser docente do curso ou alguém indicado por um docente para este fim. O coach será o único interlocutor junto à organização do concurso.'],
+             'contents' => ['Cada time precisa de 1 coach', '3 integrantes e poderá ter 1 reserva', 'O representante do time (coach) deverá realizar as inscrições até o dia 16/08/2024', 'Ele poderá ser docente do curso ou alguém indicado por um docente para este fim. O coach será o único interlocutor junto à organização do concurso.'],
              'name'=> 'Inscrição',
              "slug" =>'inscricao' ,
              'icon' => 'about-icon.png'
@@ -179,7 +179,10 @@ class PageSeeder extends Seeder
 
         $page5=Page::create([
              'titulos'=>['Colaboradores'],
-             "slug" =>'colaboradores'
+             "name"=>"colaboradores",
+             "slug" =>'colaboradores',
+            'icon' => 'about-icon.png'
+
         ]);
 
         PageCard::create([

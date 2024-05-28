@@ -28,8 +28,18 @@
   }
   .imgf{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    
   }
+  .imgf img{
+     width: 300px;
+     
+     
+       }
+
   .menu{
     background-color: #15457A;
   }
@@ -83,5 +93,14 @@
   } 
   
   @media (max-width:1280px){
+    body {
+      overflow-x: hidden;
+  }
+    .imgf{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
    
   }

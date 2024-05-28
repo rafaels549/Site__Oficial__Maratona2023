@@ -100,7 +100,7 @@
   
   .card img {
     width: 100%; /* Garante que a imagem ocupe toda a largura do card */
-    height: 400px;
+    height: 500px;
     object-fit: cover; /* Permite que a altura da imagem seja ajustada automaticamente */
   }
  

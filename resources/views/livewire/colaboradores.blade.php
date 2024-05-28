@@ -21,10 +21,10 @@ use function Livewire\Volt\{state};
   <p class="title">Estudante de Análise e Desenvolvimento de Sistemas</p>
   <p>Universidade de Taubaté</p>
   <div class="social-icons">
-                        <a  style="padding:5px"href="#"><i class="fa fa-dribbble"></i></a>
-                        <a  style="padding:5px" href="#"><i class="fa fa-twitter"></i></a>
-                        <a style="padding:5px" href="#"><i class="fa fa-linkedin"></i></a>
-                        <a style="padding:5px" href="#"><i class="fa fa-facebook"></i></a>
+                        <a  style="padding:5px"href="https://github.com/rafaels549"><i class="fa fa-github"></i></a>
+                    
+                        <a style="padding:5px" href="https://www.linkedin.com/in/rafael-costa-12320b215/"><i class="fa fa-linkedin"></i></a>
+                        <a style="padding:5px" href="https://www.instagram.com/rafael_coostass/"><i class="fa fa-instagram"></i></a>
                     </div>
 
 </div>

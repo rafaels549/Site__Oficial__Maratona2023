@@ -6,8 +6,8 @@
         <div class="linha"></div>
         <div class="linha"></div>
       </button>
-      <img src="{{asset('imagens/logo-unitau.png')}}" height ="90" width="68" class="m-3"/>
-      <img src="{{asset('imagens/maratona-logo.jpg')}}" height="90" srcset="">
+      <img src="{{asset('storage/imagens/logo-unitau.png')}}" height ="90" width="68" class="m-3"/>
+      <img src="{{asset('storage/imagens/maratona-logo.jpg')}}" height="90" srcset="">
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-body menu2">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -54,15 +54,9 @@
                         </svg>  Sobre nós </a>
                       </li>
 
-                      <li class="nav-item">
+                      <li class="nav-item" style="padding:0px">
                       <a class="nav-link" href="{{ route('colaboradores') }}">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                          <path fill="#15457A" fill-rule="evenodd"
-                          d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.57-3.47-6.33-3.87z" />
-                          <circle cx="9" cy="8" r="4" fill="#15457A" fill-rule="evenodd" />
-                          <path fill="#15457A" fill-rule="evenodd"
-                          d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24a5.98 5.98 0 0 1 0 7.52c.42.14.86.24 1.33.24zm-6 1c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z" />
-                        </svg>  Colaboradores </a>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="50 -960 960 960" width="48" fill="#15457A" ><path d="M480-720q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720ZM360-80v-520q-60-5-122-15t-118-25l20-80q78 21 166 30.5t174 9.5q86 0 174-9.5T820-720l20 80q-56 15-118 25t-122 15v520h-80v-240h-80v240h-80Z"/></svg>Colaboradores </a>
                       </li>
                     </ul>
                   </div>
